@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Aktualny wynik: {{ result }}
+
+<h1>Historia obliczeń</h1>
+
+<table>
+    <thead>
+    <th>id</th>
+    <th>op</th>
+    <th>a</th>
+    <th>b</th>
+    <th>result</th>
+    </thead>
+    <tbody>
+    {% for m in maths %}
+    <tr>
+        <td>{{ m.id }}</td>
+        <td>{{ m.op }}</td>
+        <td>{{ m.a }}</td>
+        <td>{{ m.b }}</td>
+        <td>{{ m.result }}</td>
+    </tr>
+    {% endfor %}
+
+    </tbody>
+</table>
+
+</body>
+</html>
