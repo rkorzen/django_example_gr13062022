@@ -7,3 +7,5 @@
 3. Przygotuj i wykonaj migracje
 4. Dodaj do panelu admina ten model
 5. przygotuj widok z lista i szczegolami Post (views.py)
+
+pyth
